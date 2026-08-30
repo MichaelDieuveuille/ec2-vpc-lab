@@ -1,4 +1,4 @@
-# Detailed Infrastructure Deployment & Setup Guide
+# Detailed EC2 Infrastructure Deployment & Setup Guide
 
 This document contains step-by-step instructions for provisioning and properly decommissioning the AWS VPC architecture[cite: 1].
 
