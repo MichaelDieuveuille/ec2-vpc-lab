@@ -31,3 +31,8 @@ This document contains the step-by-step instructions for provisioning the AWS VP
    ```bash
    chmod 400 my-web-key.pem
    ssh -i "my-web-key.pem" ec2-user@<YOUR_EC2_PUBLIC_IP>
+
+## 5. Teardown Protocol (Cost Control)
+1. **Terminate EC2 Instance:** Navigate to **EC2 Dashboard** > **Instances**, select `MyWebServer`, click **Instance State** > **Terminate instance**, and wait for status to show **Terminated**[cite: 1].
+2. **Delete Custom VPC:** Navigate to **VPC Dashboard**, select `MyCustomVPC`, click **Actions** > **Delete VPC**, and type `delete` to confirm[cite: 1].
+3. **Verify Automated Removal:** Confirm AWS automatically deletes associated Subnets, Internet Gateways, Route Tables, and NACLs[cite: 1].
