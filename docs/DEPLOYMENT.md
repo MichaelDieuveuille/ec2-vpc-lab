@@ -17,6 +17,10 @@ This document contains the step-by-step instructions for provisioning the AWS VP
 1. **Network ACL (`MyCustomNACL`):**
    * Inbound Rule 100: Allow HTTP (80) from `0.0.0.0/0`[cite: 1]
    * Inbound Rule 110: Allow SSH (22) from your IP[cite: 1]
+   * Inbound Rule 120: Allow Custom TCP (1024-65535) from `0.0.0.0/0` (Ephemeral Ports for returning client traffic).
+   * Outbound Rule 100: Allow HTTP (80) from `0.0.0.0/0`[cite: 1]
+   * Outbound Rule 110: Allow SSH (22) from your IP[cite: 1]
+   * Outbound Rule 120: Allow Custom TCP (1024-65535) from `0.0.0.0/0` (Ephemeral Ports for returning client traffic).
    * Associate with `PublicSubnet-1`[cite: 1]
 2. **Security Group (`WebServerSG`):**
    * Inbound Rule 1: Allow HTTP (80) from `0.0.0.0/0`[cite: 1]
