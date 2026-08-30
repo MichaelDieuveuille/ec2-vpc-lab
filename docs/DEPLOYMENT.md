@@ -76,7 +76,8 @@ Network Configuration: <img width="2551" height="1299" alt="Screenshot 2026-08-3
 Putty Configuration: <img width="2551" height="1299" alt="Screenshot 2026-08-30 133232" src="https://github.com/user-attachments/assets/5eab27f4-e039-457d-8d41-6bb6cb1a6168" />
 
 
-Connection Successful: <img width="659" height="416" alt="Screenshot 2026-08-30 133428" src="https://github.com/user-attachments/assets/be602124-b28c-4782-96cc-28921e2ab91f" />
+Connection Successful: 
+<img width="659" height="416" alt="Screenshot 2026-08-30 133428" src="https://github.com/user-attachments/assets/be602124-b28c-4782-96cc-28921e2ab91f" />
 
 ---
 
